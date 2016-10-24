@@ -13,7 +13,10 @@ micro-gestão de contratos de locação e gerenciamento de clientes contratantes
 Projeto de inventário
 modelagem de dados
 
+
 Data de criação , data de alteraçao , código(ID) - gerado automaticamente
+
+
 -------------------------------------
 ##Inventário 
 -------------------------------------
