@@ -17,12 +17,14 @@ obs(data de criação , data de alteraçao , código(ID) - gerado automaticament
     Inventário 
 -------------------------------------
 1-usuario
-    * nome
-    * senha
-    * email
-    * nivel de acesso
+
+    *nome
+    *senha
+    *email
+    *nivel de acesso
 
 2-produto
+
     *id_estiqueta
     *nome
     *valor estimado
@@ -33,6 +35,7 @@ obs(data de criação , data de alteraçao , código(ID) - gerado automaticament
     *local
 
 3-categoria
+
     *nome
     *descricao
     
@@ -40,6 +43,7 @@ obs(data de criação , data de alteraçao , código(ID) - gerado automaticament
     Alocação de itens do iventário
 ---------------------------------------
 4-empresa
+
     *cnpj
     *razão social
     *endereco
@@ -49,16 +53,19 @@ obs(data de criação , data de alteraçao , código(ID) - gerado automaticament
     *numero do contrato de locaçao
 
 5-contrato
+
     *id_empresa
     *prazo(meses)
     
 6-itens do contrato
+
     *id_contrato
     *id_etiqueta
     
     
     
-Projeto em desenvolvimento por [neosDev](http://neosdev.com.br) [TechSafe](www.techsaferj.com.br)
+Projeto em desenvolvimento por:
+[neosDev](http://neosdev.com.br) /  [TechSafe](www.techsaferj.com.br)
 
 
 
