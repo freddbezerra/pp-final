@@ -17,10 +17,10 @@ obs(data de criação , data de alteraçao , código(ID) - gerado automaticament
     Inventário 
 -------------------------------------
 1-usuario
-    *nome
-    *senha
-    *email
-    *nivel de acesso
+    * nome
+    * senha
+    * email
+    * nivel de acesso
 
 2-produto
     *id_estiqueta
