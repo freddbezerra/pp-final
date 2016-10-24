@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  label: MyString
+  name: MyString
+  estimated_value: 9.99
+  description: MyText
+  id_category: 1
+  state: 1
+  available: false
+  address: MyString
+
+two:
+  label: MyString
+  name: MyString
+  estimated_value: 9.99
+  description: MyText
+  id_category: 1
+  state: 1
+  available: false
+  address: MyString
