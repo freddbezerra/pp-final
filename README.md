@@ -5,9 +5,9 @@ Sistema de inventário com controle de alocação de recursos inventáriados
 micro-gestão de contratos de locação e gerenciamento de clientes contratantes
 
 ##Tecnologias base
-**Ruby** - 4.2.5
+**Ruby** -v 4.2.5
 
-**Rails** - 2.3.0
+**Rails** -v 2.3.0
 
 ###Models 
 Projeto de inventário
