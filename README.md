@@ -1,5 +1,5 @@
 
-#inventorySys
+#inventorySys© 
 
 Sistema de inventário com controle de alocação de recursos inventáriados 
 micro-gestão de contratos de locação e gerenciamento de clientes contratantes
