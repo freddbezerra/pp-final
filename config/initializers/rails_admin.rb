@@ -43,18 +43,3 @@ RailsAdmin.config do |config|
   end
 end
 
-RailsAdmin.config do |config|
-config.model 'Project' do
-    list do
-      configure :vote do
-        hide
-      end
-       configure :team_player_id do
-        hide
-      end
-      configure :story_id do
-        hide
-      end
-    end
-  end
-end
