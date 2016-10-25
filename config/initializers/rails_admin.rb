@@ -3,10 +3,10 @@ RailsAdmin.config do |config|
   ### Popular gems integration
 
   ## == Devise ==
-  # config.authenticate_with do
-  #   warden.authenticate! scope: :user
-  # end
-  # config.current_user_method(&:current_user)
+  config.authenticate_with do
+     warden.authenticate! scope: :user
+   end
+   config.current_user_method(&:current_user)
 
   ## == Cancan ==
   # config.authorize_with :cancan
@@ -23,6 +23,9 @@ RailsAdmin.config do |config|
   ## To disable Gravatar integration in Navigation Bar set to false
   # config.show_gravatar true
 
+  
+
+
   config.actions do
     dashboard                     # mandatory
     index                         # mandatory
@@ -37,5 +40,21 @@ RailsAdmin.config do |config|
     ## With an audit adapter, you can add:
     # history_index
     # history_show
+  end
+end
+
+RailsAdmin.config do |config|
+config.model 'Project' do
+    list do
+      configure :vote do
+        hide
+      end
+       configure :team_player_id do
+        hide
+      end
+      configure :story_id do
+        hide
+      end
+    end
   end
 end
